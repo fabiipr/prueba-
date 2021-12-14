@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Add a gray right border to all list items, except the last item (last-child) */
+    li {
+      border-right: 1px solid #bbb;
+    }
+    
+    li:last-child {
+      border-right: 1px solid #bbb ;
+    }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #030303;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: rgb(1, 44, 14);
+        }
+        
+        .active {
+          background-color: #3002fd;
+        }
+        </style>
+        </head>
+        <body>
+    <head>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a class="active" href="html.html">HTML</a></li>
+      <li><a href="css.html">CSS</a></li>
+      <li><a href="svg.html">SVG</a></li>
+    </ul>
+    </body>
+    </head>
+
+    <body>
+<head>
+    <style>
+        body {
+          font-family: "Lato", sans-serif;
+        }
+        
+        .sidenav {
+          height: 100%;
+          width: 160px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #3002fd;
+          overflow-x: hidden;
+          padding-top: 20px;
+        }
+        
+        .sidenav a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 25px;
+          color: #020000;
+          display: block;
+        }
+        
+        .sidenav a:hover {
+          color: #f1f1f1;
+        }
+        
+        .main {
+          margin-left: 160px; /* Same as the width of the sidenav */
+          font-size: 28px; /* Increased text to enable scrolling */
+          padding: 0px 10px;
+        }
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        </style>
+        </head>
+        <body>
+        
+    <div class="sidenav">
+        <a href="svg each chapter.html">SVG Each Chapter</a>
+        <a href="svg line.html">SVG Line </a>
+        <a href="svg text.html">SVG Text </a>
+        <a href="svg rectangle.html">SVG Rectangle</a>
+        <a href="svg ellipse.html">SVG Ellipse</a>
+        <a href="home.html">Inicio</a>
+        </div>       
+    
+        <div class="main">
+            <h1>What is HTML?</h1>
+            <p><div class="main">
+                <h1>What is SVG?</h1>
+                <p>The SVG format specifies a vector graphic that is very easy to scale (Scalable Vector Graphics). SVG files are defined in XML and allow the use of graphic shapes, bitmaps or text. At the same time they can be static or dynamic.
+                  <br></p>
+        
+          </div>
+            
+</head>
+</body>
+</html>
